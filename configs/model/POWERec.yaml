@@ -1,0 +1,6 @@
+embedding_size: 64
+reg_weight: [0.1, 1]
+neg_weight: [0.001, 0.01, 0.1, 1]
+dropout: [0.1]
+prompt_num: [1, 2, 3, 4, 5]
+hyper_parameters: ["reg_weight", "prompt_num", "dropout", "neg_weight"]
